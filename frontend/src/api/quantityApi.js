@@ -1,4 +1,4 @@
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://localhost:8081';
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://32.236.12.7:8081';
 
 export async function fetchUnitsByType(measurementType) {
   return request(`/units/type/${measurementType}`);
