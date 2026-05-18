@@ -300,11 +300,11 @@ function App() {
       </header>
 
       <main className="container content-wrap">
-        {/* {error ? (
+        {error ? (
           <div id="error-banner" className="error-banner" role="alert">
             {error}
           </div>
-        ) : null} */}
+        ) : null}
 
         <section className="mb-5">
           <h2 className="section-title">Choose Type</h2>
