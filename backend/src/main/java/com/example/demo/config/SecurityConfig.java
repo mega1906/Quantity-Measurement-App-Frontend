@@ -104,7 +104,7 @@ public class SecurityConfig {
             Arrays.asList(
                 "http://localhost:3000",
                 "http://localhost:3001",
-                "http://localhost:8081"
+                "http://32.236.14.140:8081"
             )
         );
 
